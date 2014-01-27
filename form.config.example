@@ -1,0 +1,59 @@
+{
+    "config": {
+        "module": "foo",
+        "element_begin": "1",
+        "indent_begin": "0",
+        "form_name": "FOO Component",
+        "height": "30",
+        "width": "150",
+        "form_height": "26",
+        "iy": "35",
+        "ix": "100",
+        "flen": "512"
+    },
+    "00_foo": [
+    {
+        "00_schema_name": [ "bar_foo_test", "Schema name", 0 ],
+        "01_password": [ "odt", "Password", 1 ],
+        "02_tablespace_default": [ "bar_foo_test_ts", "Default tablespace", 0 ],
+        "03_tablespace_temp": [ "temp", "Temporary tablespace" , 0 ],
+        "04_quota": [ "quota unlimited on bar_foo_test_ts quota unlimited on bar_foo_test_idx_ts quota unlimited on bar_foo_test_tmp_ts", "Quota", 0 ],
+        "05_grants": [ "create job, create library, create operator, create procedure, create sequence, create synonym, create table, create trigger, create view, create type, create indextype, create mining model, unlimited tablespace", "Grants", 0 ],
+        "15_tablespace": [
+        {
+            "00_name": [ "bar_foo_test_ts", "Name", 0 ],
+            "01_dbf": [ "/oracle/oradata/dbf/foo_bar_test_ts.dbf", "DBF file", 0 ],
+            "02_init_size": [ "100m", "Initial size", 0 ],
+            "03_extend_next": [ "10m", "Extend size", 0 ],
+            "04_max_size": [ "1g", "Max size", 0 ],
+            "05_logging": [ "nologging", "Logging capability", 0 ],
+            "06_block_size": [ "32k", "Block size", 0 ]
+        }, "Tablespace" ],
+        "16_index_tablespace": [
+        {
+            "00_name": [ "bar_foo_test_idx_ts", "Name", 0 ],
+            "01_dbf": [ "/oracle/oradata/dbf/foo_bar_test_idx_ts.dbf", "DBF file", 0 ],
+            "02_init_size": [ "100m", "Init size", 0 ],
+            "03_extend_next": [ "10m", "Extend size", 0 ],
+            "04_max_size": [ "1g", "Max size", 0 ],
+            "05_logging": [ "nologging", "Logging capability", 0 ],
+            "06_block_size": [ "32k", "Block size", 0 ]
+        }, "Index tablespace" ],
+        "17_buffer_tablespace": [
+        {
+            "00_name": [ "bar_foo_test_tmp_ts", "Name", 0 ],
+            "01_dbf": [ "/oracle/oradata/dbf/foo_bar_test_buf_ts.dbf", "DBF file", 0 ],
+            "02_init_size": [ "100m", "Init size", 0 ],
+            "03_extend_next": [ "10m", "Extend size", 0 ],
+            "04_max_size": [ "1g", "Max size", 0 ],
+            "05_logging": [ "nologging", "Logging capability", 0 ],
+            "06_block_size": [ "32k", "Block size", 0 ]
+        }, "Buffer tablespace" ],
+        "09_term_activity_threshold": [ "6", "Term activity threshold", 0 ],
+        "10_card_activity_threshold": [ "6", "Card activity threshold", 0 ],
+        "11_termcodseg_view": [ "v_trmcodseg", "Terminal code segment view", 0 ],
+        "12_term_list_table": [ "bar_terminal_list", "Terminal list table", 0 ],
+        "13_first_modelling_begin": [ "2013/05/08 00:00:00", "First modelling begin", 0 ],
+        "14_first_modelling_end": [ "2013/09/08 00:00:00", "First modelling end", 0 ]
+    }, "Configuration" ]
+}
